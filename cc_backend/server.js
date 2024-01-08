@@ -35,6 +35,9 @@ const getFarmerDetails = require('./service/getFarmerDetails');
 const displayFarmer = require('./service/displayFarmer');
 const getPlantationDetails = require('./service/getPlantationDetails');
 
+
+//servier api
+
 const app = express();
 
 const port = process.env.PORT || 5000;
